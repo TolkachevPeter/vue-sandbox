@@ -1,0 +1,9 @@
+<template>
+    <div>
+        <h2>Home page</h2>
+
+        <p>text</p>
+
+        <a href="/todos">Todos</a>
+    </div>
+</template>
