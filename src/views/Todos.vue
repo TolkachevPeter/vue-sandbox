@@ -9,9 +9,11 @@
     />
     <hr>
     <TodoList
+    v-if="todos.length"
     v-bind:todos='todos'
     @remove-todo='removeTodo'
      />
+    <p v-else>Список пуст</p>
   </div>
 </template>
 
