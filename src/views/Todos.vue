@@ -1,6 +1,9 @@
 <template>
   <div>
     <h2>Todo Application</h2>
+    <router-link to="/">Home</router-link>
+    <hr>
+
     <AddTodo
       @add-todo='AddTodo'
     />

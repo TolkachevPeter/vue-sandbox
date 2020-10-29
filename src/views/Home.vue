@@ -2,8 +2,8 @@
     <div>
         <h2>Home page</h2>
 
-        <p>text</p>
+        <p>Нажмите ниже Todos для перехода к списку дел</p>
 
-        <a href="/todos">Todos</a>
+        <router-link to="/todos">Todos</router-link>
     </div>
 </template>
